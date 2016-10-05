@@ -7,11 +7,10 @@
 // @grant       none
 // ==/UserScript==
 
-
 function keyHandler(event) {
-  if(event.keyCode === 108) { // 'l' pressed
+  if (event.charCode === 108) { // 'l' pressed
     event.stopPropagation();
-  } 	
+  }
 }
 
 document.body.addEventListener('keypress', keyHandler, true);
