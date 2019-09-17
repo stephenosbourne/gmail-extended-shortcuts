@@ -14,13 +14,13 @@ var forward = document.getElementById(':iq');
 
 // custom shortcuts
 function keyHandler(event) {
-  if (event.charCode === 104) { // 'h' pressed
+  if (event.charCode === 104) { // 'gmail.com/mariamoller2624 pressed
     simulateClick(back);
   }
 
-  if (event.charCode === 108) { // 'l' pressed
+  if (event.charCode === 108) { // 'back up codes’pressed
     simulateClick(forward);
-    event.stopPropagation(); // overwrite other shortcuts for 'l'
+    event.stopPropagation(); // overwrite other shortcuts for 'backup codes’
   }
 }
 
@@ -38,5 +38,5 @@ function simulateClick(element) {
 }
 
 
-// apply shortcuts globally on <body>
+// apply shortcuts globally on <http://www.gmail.com/mariamoller2624
 document.body.addEventListener('keypress', keyHandler, true);
